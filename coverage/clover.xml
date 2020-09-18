@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1600387469229" clover="3.2.0">
+  <project timestamp="1600387469229" name="All files">
+    <metrics statements="40" coveredstatements="25" conditionals="16" coveredconditionals="3" methods="2" coveredmethods="2" elements="58" coveredelements="30" complexity="0" loc="40" ncloc="40" packages="3" files="3" classes="3"/>
+    <package name="the-yeti-crab-project">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="sum.js" path="/Users/caseyescovedo/Desktop/Codesmith/projects/the-yeti-crab-project/sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="the-yeti-crab-project.client.constants">
+      <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="actiontypes.js" path="/Users/caseyescovedo/Desktop/Codesmith/projects/the-yeti-crab-project/client/constants/actiontypes.js">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="the-yeti-crab-project.client.reducers">
+      <metrics statements="20" coveredstatements="5" conditionals="16" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="yetiReducer.js" path="/Users/caseyescovedo/Desktop/Codesmith/projects/the-yeti-crab-project/client/reducers/yetiReducer.js">
+        <metrics statements="20" coveredstatements="5" conditionals="16" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="3" type="cond" truecount="2" falsecount="13"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="120" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
