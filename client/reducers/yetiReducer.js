@@ -13,11 +13,15 @@ const initialState = {
   posts: [],
   loading: false,
   error: null,
+  username: "",
+  password: ""
 };
 
 // reducer function
 
 const yetiReducer = (state = initialState, action) => {
+  let username;
+  let password;
   switch (action.type) {
     // Functionality to show login popup
     case actionTypes.LOGGING_IN:
@@ -32,11 +36,24 @@ const yetiReducer = (state = initialState, action) => {
         isSigningUp: true,
       };
     // LOGIN REDUCERS
+case actionTypes.UPDATE_LOGIN:
+  username = action.payload;
+  return {
+    ...state,
+    username,
+  }
+case actionTypes.UPDATE_PASSWORD:
+  password = action.payload;
+  return {
+    ...state,
+    password,
+  }
     case actionTypes.LOGIN_START:
       return {
         ...state,
         loading: true,
       };
+
     case actionTypes.LOGIN_SUCCESS:
       console.log(action.payload);
       return {

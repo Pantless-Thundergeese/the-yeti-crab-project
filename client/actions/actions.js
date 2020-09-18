@@ -34,6 +34,26 @@ export const loginStarted = () => ({
   type: actionTypes.LOGIN_START,
 });
 
+export const updateLogin =(username)=>({
+  type:actionTypes.UPDATE_LOGIN,
+  payload: username
+})
+export const updatePassword =(userpassword) => ({
+  type:actionTypes.UPDATE_PASSWORD,
+  payload: userpassword
+})
+export const enterFirstName=(firstName)=>({
+  type:actionTypes.ENTER_FIRSTNAME,
+  payload: firstName
+})
+export const enterLastName=(lastName)=> ({
+  type:actionTypes.ENTER_LASTNAME,
+  payload:lastName
+})
+export const updateEmail=(email)=>({
+  type:actionTypes.UPDATE_EMAIL,
+  payload:email
+})
 // login success dispatches upon successful completion of get request
 export const loginSuccess = (loginResponse) => ({
   type: actionTypes.LOGIN_SUCCESS,
